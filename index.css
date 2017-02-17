@@ -1,0 +1,69 @@
+body {
+	background-color:#D9D9D9;
+	/*#d6d6d6;*/
+}
+
+p {
+	border-left:7px solid;
+	border-left-color:#292929;
+	padding-left:3px;
+	margin: 15px;
+	background-color:#6a6f73;
+	color:#d1d1d1;
+	font-size:13px;
+	font-family: 'Source Code Pro', monospace;
+}
+
+.clear{
+clear:both;
+} 
+.main{
+width:100%;
+}
+
+.nav ul {
+	width:98.4%;
+	text-align:left;
+	padding:10px;
+	border-style:solid;
+	background-color:#4484CE;
+}	
+	
+.nav li {
+	display:inline-block;
+	text-align:center;
+	vertical-align:middle;
+	padding-left:15px;
+	padding-right:15px;
+	font-size:20px;
+	font-weight:bold;
+	border-right-style:solid;
+	border-right-color:#4f4f4f;
+	line-height:40px;
+}	
+
+#about_me, #projects, #resume {
+	border-style:solid;
+	margin-bottom:10px;
+	background-color:white;
+}
+
+#comment {
+	color:#00cc6d;
+}
+
+.section {
+float:left;
+width: 66.7%;
+}
+.sidebar{
+float:right;
+position:fixed;
+margin-left:66.7%;
+width:32%;
+border-style:solid;
+background-color: white;
+text-align:center;
+padding-top:10px;
+padding-bottom:10px;
+}
